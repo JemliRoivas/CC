@@ -67,6 +67,9 @@
 		if(L == user || istype(L, /mob/living/carbon/human/dummy) || !L.mind)
 			continue
 		var/is_hunted = L.has_flaw(/datum/charflaw/hunted)
+		//Caustic edit
+		if(HAS_TRAIT(L, TRAIT_HUNTED))
+			is_hunted= true
 		// Don't uncomment for now
 		// var/target_role = L.job
 		var/is_valid_prey = is_hunted
