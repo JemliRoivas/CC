@@ -69,7 +69,7 @@
 		var/is_hunted = L.has_flaw(/datum/charflaw/hunted)
 		//Caustic edit
 		if(HAS_TRAIT(L, TRAIT_HUNTED))
-			is_hunted= true
+			is_hunted = true
 		//Caustic edit end
 		// Don't uncomment for now
 		// var/target_role = L.job
