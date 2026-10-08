@@ -70,6 +70,7 @@
 		//Caustic edit
 		if(HAS_TRAIT(L, TRAIT_HUNTED))
 			is_hunted= true
+		//Caustic edit end
 		// Don't uncomment for now
 		// var/target_role = L.job
 		var/is_valid_prey = is_hunted
